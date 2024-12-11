@@ -1,0 +1,46 @@
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.model-1{
+ 
+    width: 700px;
+}
+
+.imm2 {
+    width: 400px;
+}
+
+.single_img img {
+    width: 400px;
+    height: 500px;
+   margin-top: 40px;
+  
+}
+
+.immh {
+    width: 500px;
+   
+    text-align: center;
+}
+
+.single_img {
+ 
+    width:600px ;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.old_price del {
+    color: red;
+}
+
+.new_price span {
+    color: green;
+    font-weight: 600;
+}
+
+
+

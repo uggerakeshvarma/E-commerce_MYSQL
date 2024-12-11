@@ -1,0 +1,78 @@
+/* .table-border tr th , tr td {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+.quntity  {
+    display:  flex;
+    border: 1px solid black;
+    width: 100px;
+    justify-content: space-between;
+    margin-left: 50px;
+} */
+
+/* Cart.css */
+.cart-container {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table-border {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: 200px;
+}
+
+.table-border th, .table-border td {
+    border: 1px solid #1d1313;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-border th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-border img {
+    width: 50px;
+    height: auto;
+}
+
+.quntity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quntity span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.quntity span:hover {
+    color: #007bff;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.fiDelete {
+    cursor: pointer;
+    color: red;
+}
+
+.fiDelete:hover {
+    color: darkred;
+}
+

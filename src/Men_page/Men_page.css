@@ -1,0 +1,30 @@
+.menpage-container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 20px;
+    background-color: white;
+    
+    padding: 20px;
+}
+.containerpage-img{
+    background-color: rgb(231, 216, 216);
+}
+
+.containerpage-img img {
+    width: 300px;
+    height: 300px;
+    
+}
+body {
+    background-color: whitesmoke;
+}
+
+.select-page{
+    width: 350px;
+   
+}
+
+.men-details{
+    font-size: 20px;
+    font-weight: 600;
+}

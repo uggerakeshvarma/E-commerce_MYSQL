@@ -1,0 +1,61 @@
+/* laptop.css */
+
+.loptop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.laptop-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.laptop-card:hover {
+    transform: translateY(-5px);
+}
+
+.laptop-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.loptop-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.loptop-details h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.loptop-details span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #999;
+}
+
+.loptop-details del {
+    margin-right: 10px;
+    color: #b12704;
+}
+
+.loptop-details h6 {
+    margin: 0;
+    font-size: 18px;
+    color: #007600;
+}
